@@ -20,10 +20,11 @@ Run `webpack` to build `dist\StandaloneAnchoring.js`
 
 ## Use
 
-`<script src="PATH/StandaloneAnchoring.js"></script>
-
 ```
+<script src="PATH/StandaloneAnchoring.js"></script>
+
 <script>
 const range = selection.getRangeAt(0)
 let quoteSelector = anchoring.TextQuoteAnchor.fromRange(document.body, range)
 let positionSelector = anchoring.TextPositionAnchor.fromRange(document.body, range)
+</script>
