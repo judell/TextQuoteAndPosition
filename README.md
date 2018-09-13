@@ -20,6 +20,8 @@ Run `webpack` to build `dist\StandaloneAnchoring.js`
 
 ## Use
 
+### To convert a selection in a web page into the same selectors included in the payload when the Hypothesis client creates an annotation.
+
 ```
 <script src="PATH/StandaloneAnchoring.js"></script>
 
@@ -28,3 +30,8 @@ const range = selection.getRangeAt(0)
 let quoteSelector = anchoring.TextQuoteAnchor.fromRange(document.body, range)
 let positionSelector = anchoring.TextPositionAnchor.fromRange(document.body, range)
 </script>
+```
+
+### To do the reverse: anchor something to a selection based on selectors in a retrieved Hypothesis annotation.
+
+example tbd
