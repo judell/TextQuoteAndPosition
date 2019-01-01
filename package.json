@@ -9,5 +9,8 @@
     "babelify": "^7.2.0",
     "dom-anchor-text-quote": "^4.0.2",
     "wrap-range-text": "^1.0.1"
+  },
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "*"
   }
 }
