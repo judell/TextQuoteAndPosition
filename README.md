@@ -6,6 +6,8 @@ Hypothesis uses two modules, https://www.npmjs.com/package/dom-anchor-text-posit
 
 This repo packages those modules for standalone use in the browser. They are exported as `anchoring.TextQuoteAnchor` and `anchoring.TextPositionSelector`.
 
+It also exports https://www.npmjs.com/package/wrap-range-text, as `anchoring.WrapRangeText`, which is needed to wrap highlights around annotation targets.
+
 ## Requirements
 
 yarn
