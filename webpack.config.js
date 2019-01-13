@@ -7,4 +7,15 @@ module.exports = {
     filename: './dist/StandaloneAnchoring.js',
     library: 'anchoring',
   },
+  optimization: {
+    minimize: false
+  },
+  devtool: 'source-map',
+  module: {
+    rules: [
+      {
+       use: ['source-map-loader'],
+      }
+    ]
+  }
 };
