@@ -37,7 +37,7 @@ document.body.appendChild(s)
 Now make a selection in the page, then paste these lines into the console:
 
 ```
-range = getSelection().selection.getRangeAt(0)
+range = getSelection().getRangeAt(0)
 quoteSelector = anchoring.TextQuoteAnchor.fromRange(document.body, range)
 positionSelector = anchoring.TextPositionAnchor.fromRange(document.body, range)
 ```
